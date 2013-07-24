@@ -6,8 +6,5 @@
 //  Copyright (c) 2013 Rick Cheng. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#include "HiWorld.h"
 
-@interface SampleLibrary : NSObject
-
-@end

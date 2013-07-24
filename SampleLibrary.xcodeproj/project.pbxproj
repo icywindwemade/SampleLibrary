@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		3613FD61179F5CF9002E9967 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3613FD60179F5CF9002E9967 /* Foundation.framework */; };
 		3613FD66179F5CF9002E9967 /* SampleLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613FD65179F5CF9002E9967 /* SampleLibrary.h */; };
-		3613FD68179F5CF9002E9967 /* SampleLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3613FD67179F5CF9002E9967 /* SampleLibrary.m */; };
+		3613FD70179F5D9B002E9967 /* HiWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613FD6F179F5D9A002E9967 /* HiWorld.cpp */; };
+		3613FD71179F5DCD002E9967 /* HiWorld.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613FD6E179F5D9A002E9967 /* HiWorld.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,6 +20,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				3613FD71179F5DCD002E9967 /* HiWorld.h in CopyFiles */,
 				3613FD66179F5CF9002E9967 /* SampleLibrary.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -30,7 +32,8 @@
 		3613FD60179F5CF9002E9967 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3613FD64179F5CF9002E9967 /* SampleLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleLibrary-Prefix.pch"; sourceTree = "<group>"; };
 		3613FD65179F5CF9002E9967 /* SampleLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleLibrary.h; sourceTree = "<group>"; };
-		3613FD67179F5CF9002E9967 /* SampleLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleLibrary.m; sourceTree = "<group>"; };
+		3613FD6E179F5D9A002E9967 /* HiWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiWorld.h; sourceTree = "<group>"; };
+		3613FD6F179F5D9A002E9967 /* HiWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HiWorld.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +76,9 @@
 		3613FD62179F5CF9002E9967 /* SampleLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				3613FD6E179F5D9A002E9967 /* HiWorld.h */,
+				3613FD6F179F5D9A002E9967 /* HiWorld.cpp */,
 				3613FD65179F5CF9002E9967 /* SampleLibrary.h */,
-				3613FD67179F5CF9002E9967 /* SampleLibrary.m */,
 				3613FD63179F5CF9002E9967 /* Supporting Files */,
 			);
 			path = SampleLibrary;
@@ -139,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3613FD68179F5CF9002E9967 /* SampleLibrary.m in Sources */,
+				3613FD70179F5D9B002E9967 /* HiWorld.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
